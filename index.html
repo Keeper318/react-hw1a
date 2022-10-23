@@ -3,15 +3,37 @@
 
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Калькулятор</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="main.css">
-    <script src="main.js"></script>
 </head>
 
 <body>
-<!-- Add your site or application content here -->
-<p>Hello world! This is HTML5 Boilerplate.</p>
+<div class="calculator">
+    <div class="output">0</div>
+    <div class="keys">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button data-action="divide">÷</button>
+        <button data-action="multiply">×</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button data-action="sign">±</button>
+        <button data-action="minus">-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button data-action="sqrt">√</button>
+        <button class="key_plus" data-action="plus">+</button>
+        <button>0</button>
+        <button data-action="decimal">.</button>
+        <button data-action="calculate">=</button>
+        <button data-action="clear">AC</button>
+    </div>
+</div>
+<script src="main.js"></script>
 </body>
 
 </html>
